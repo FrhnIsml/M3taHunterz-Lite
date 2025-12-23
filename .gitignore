@@ -1,0 +1,11 @@
+# Ignore Database files
+*.db
+offline_map_cache.db
+
+# Ignore Python Cache (Junk)
+__pycache__/
+*.pyc
+
+# Ignore Environment Variables (Secrets)
+.env
+venv/
