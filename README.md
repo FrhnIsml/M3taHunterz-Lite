@@ -56,7 +56,7 @@ python m3tahunter.py
 *Downloads*
 ```
 git clone https://github.com/FrhnIsml/M3taHunterz-Lite.git
-cd M3taHunterz Lite
+cd M3taHunterz-Lite
 ```
 
 ```
@@ -89,7 +89,7 @@ python m3tahunter.py
 Open your terminal and go to the folder:
 
 ```Bash
-cd M3taHunterz Lite
+cd M3taHunterz-Lite
 source .venv/bin/activate
 python m3tahunter.py
 ```
