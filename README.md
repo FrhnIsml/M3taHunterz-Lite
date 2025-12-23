@@ -7,11 +7,11 @@
 
 
 ## 💀 Overview
-M3taHunterz is a GUI-based tool designed for **Open Source Intelligence (OSINT)** analysis and **Privacy Protection (Anti-Forensics)**. Unlike standard command-line tools, it provides a visual interface to extract, map, clean, and spoof metadata from digital imagery.
+M3taHunterz Lite is a GUI-based tool designed for **Open Source Intelligence (OSINT)** analysis and **Privacy Protection (Anti-Forensics)**. Unlike standard command-line tools, it provides a visual interface to extract, map, clean, and spoof metadata from digital imagery.
 
 It features an **Offline-First** architecture, allowing investigators to map GPS coordinates without an active internet connection (after caching).
 
-## ⚡ Features (v1)
+## ⚡ Features (Lite Version)
 
 ### 🔍 Analysis (Blue Team)
 * **Deep Metadata Extraction:** View hidden EXIF tags (Software, Hardware, Dates).
@@ -41,8 +41,8 @@ pip install -r requirements.txt
 ### 🪟 Windows
 ```bash
 # 1. Download
-git clone https://github.com/FrhnIsml/M3taHunterz.git
-cd M3taHunterz
+git clone https://github.com/FrhnIsml/M3taHunterz-Lite.git
+cd M3taHunterz Lite
 
 # 2. Install Requirements
 pip install -r requirements.txt
@@ -55,8 +55,8 @@ python m3tahunter.py
 
 *Downloads*
 ```
-git clone https://github.com/FrhnIsml/M3taHunterz.git
-cd M3taHunterz
+git clone https://github.com/FrhnIsml/M3taHunterz-Lite.git
+cd M3taHunterz Lite
 ```
 
 ```
@@ -89,7 +89,7 @@ python m3tahunter.py
 Open your terminal and go to the folder:
 
 ```Bash
-cd M3taHunterz
+cd M3taHunterz Lite
 source .venv/bin/activate
 python m3tahunter.py
 ```
@@ -104,11 +104,11 @@ python m3tahunter.py
 
 ## 🔄 Updating the Tool
 
-If you already have M3taHunterz installed and want to get the latest version:
+If you already have M3taHunterz Lite installed and want to get the latest version:
 
 1. Open your terminal and go to the folder:
    ```bash
-   cd M3taHunterz
+   cd M3taHunterz Lite
 
 2. Pull the latest changes from GitHub:
    ```Bash
