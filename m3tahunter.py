@@ -115,9 +115,9 @@ class MetaHunterApp:
 
     # ==================== LOGO & SCROLL LOGIC (NEW) ====================
     def load_watermark(self):
-        if os.path.exists("logo.png"):
+        if os.path.exists("logo.jpg"):
             try:
-                img = Image.open("logo.png").convert("RGBA")
+                img = Image.open("logo.jpg").convert("RGBA")
                 img = img.resize((540, 450), Image.LANCZOS)
                 alpha = img.split()[3]
                 alpha = alpha.point(lambda p: p * 0.35)
